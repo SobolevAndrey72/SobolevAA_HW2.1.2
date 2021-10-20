@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //
+        
         redSignal.layer.cornerRadius = 110
         yellowSignal.layer.cornerRadius = 110
         greenSignal.layer.cornerRadius = 110
