@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // переменные
+    @IBOutlet var myFirstButton: UIButton!
+    
+    @IBOutlet var redSignal: UIView!
+    @IBOutlet var yellowSignal: UIView!
+    @IBOutlet var greenSignal: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
+    // методы
+    @IBAction func pressBotton() {
+        
+    }
+    
 
 }
 
